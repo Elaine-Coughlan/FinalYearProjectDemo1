@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link AlgorithmFragment#newInstance} factory method to
+ * Use the {@link Screen3Fragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AlgorithmFragment extends Fragment {
+public class Screen3Fragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class AlgorithmFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public AlgorithmFragment() {
+    public Screen3Fragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class AlgorithmFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment AlgorithmFragment.
+     * @return A new instance of fragment CourseFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static AlgorithmFragment newInstance(String param1, String param2) {
-        AlgorithmFragment fragment = new AlgorithmFragment();
+    public static Screen3Fragment newInstance(String param1, String param2) {
+        Screen3Fragment fragment = new Screen3Fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class AlgorithmFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_algorithm, container, false);
+        return inflater.inflate(R.layout.fragment_screen3, container, false);
     }
 }

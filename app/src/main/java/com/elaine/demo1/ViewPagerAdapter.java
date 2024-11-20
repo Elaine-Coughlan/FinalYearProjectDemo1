@@ -20,11 +20,11 @@ public class ViewPagerAdapter
     {
         Fragment fragment = null;
         if (position == 0)
-            fragment = new AlgorithmFragment();
+            fragment = new MainTaskListFragment();
         else if (position == 1)
-            fragment = new CourseFragment();
+            fragment = new Screen3Fragment();
         else if (position == 2)
-            fragment = new LoginFragment();
+            fragment = new Screen2Fragment();
 
         return fragment;
     }

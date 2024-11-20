@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlgorithmFragment">
+    tools:context=".Screen2Fragment">
 
     <TextView
         android:textColor="@color/colorPrimary"
@@ -12,6 +12,6 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Learn Algorithm\nVisit GFG" />
+        android:text="Screen2" />
 
 </FrameLayout>
