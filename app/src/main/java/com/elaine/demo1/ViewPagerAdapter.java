@@ -22,9 +22,9 @@ public class ViewPagerAdapter
         if (position == 0)
             fragment = new MainTaskListFragment();
         else if (position == 1)
-            fragment = new Screen3Fragment();
-        else if (position == 2)
             fragment = new Screen2Fragment();
+        else if (position == 2)
+            fragment = new Screen3Fragment();
 
         return fragment;
     }
@@ -40,11 +40,11 @@ public class ViewPagerAdapter
     {
         String title = null;
         if (position == 0)
-            title = "Algorithm";
+            title = "RecyclerView";
         else if (position == 1)
-            title = "Courses";
+            title = "Card";
         else if (position == 2)
-            title = "Login";
+            title = "Empty";
         return title;
     }
 }
